@@ -2,3 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+input, textarea {
+  @apply border border-gray-300 rounded-md px-1 w-full;
+  @apply mb-2;
+ }
+
+input:focus, textarea:focus {
+  @apply border border-blue-900;
+ }
+
+ h1 {
+  @apply mt-2 mb-1 text-xl;
+ }
+
+ label {
+  @apply text-black
+ }
+
+ .btn-primary {
+  @apply bg-blue-500 text-white px-4 rounded-lg mt-1 py-0.5;
+ }
